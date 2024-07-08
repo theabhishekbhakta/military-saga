@@ -1,0 +1,206 @@
+.section_padding {
+    padding: 0;
+}
+
+.footer {
+    background-color: rgb(60, 60, 60);
+}
+
+.sb_footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.sb_footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.sb_footer-links-div {
+    width: 14rem;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+}
+
+.sb_footer-links-div h4 {
+    font-family: var(--font1);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 1rem;
+}
+
+.sb_footer-links-div a p {
+    font-family: var(--font1);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.sb_footer-links-div p {
+    font-size: 13px;
+    line-height: 17px;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.sb_footer-below {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid #727272;
+    margin-top: 2rem;
+    padding: 2rem 0 0 0;
+}
+
+.sb_footer-copyright p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.sb_footer-below-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.sb_footer-below-links p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-left: 1rem;
+    color: white;
+    transition: ease-in-out;
+}
+
+.sb_footer-below-links p:hover {
+    text-decoration: underline;
+}
+
+.privacy-policy {
+    border-right: 1px solid #787878;
+    padding-right: 1rem;
+}
+
+/* Media responsive */
+
+@media screen and (min-width: 481px) and (max-width: 769px) {
+    .sb_footer-links-div {
+        width: 100%;
+        margin: 1.2rem 0;
+    }
+    .sb_footer-links-div h4 {
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 25px;
+        margin-bottom: 0.8rem;
+    }
+    .sb_footer-links-div p {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+        margin: 0.5rem 0;
+    }
+    .sb_footer-links-div a p {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 17px;
+    }
+    .sb_footer-below {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5rem 0 0 0;
+    }
+    .sb_footer-copyright p {
+        align-items: center;
+        justify-content: center;
+        padding: 0.4rem 0 0.4rem 0;
+        font-size: 1.3rem;
+        font-weight: 500;
+        line-height: 18px;
+    }
+    .sb_footer-below-links {
+        margin: auto;
+    }
+    .sb_footer-below-links p {
+        align-items: center;
+        justify-content: center;
+        padding: 0.4rem 0 0.4rem 0;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-top: 0.4rem;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    .section_padding {
+        padding: 0rem 0rem 0rem 0rem;
+    }
+    .sb_footer-links {
+        flex-direction: column;
+        margin: auto;
+    }
+    .sb_footer-links-div {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .sb_footer-links-div h4 {
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 25px;
+        margin-bottom: 0.5rem;
+    }
+    .sb_footer-links-div p {
+        font-size: 13px;
+        line-height: 20px;
+        margin: 0.5rem 0;
+    }
+    .sb_footer-links-div a p {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 15px;
+    }
+    .sb_footer-below {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        border-top: 1px solid #727272;
+        padding: 1.2rem 0 0.5rem 0;
+    } 
+    .sb_footer-below-links {
+        flex-direction: row;
+        margin: auto;
+    }
+    .sb_footer-copyright p {
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem 0 0.5rem 0;
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 20px;
+        color: rgb(255, 255, 255);
+    }
+    .sb_footer-below-links p {
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem 0 0.5rem 0;
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 15px;
+        color: white;
+        margin-top: 2px;
+    }
+    
+}
+
